@@ -19,10 +19,8 @@ AddType font/opentype otf
 AddType     image/svg+xml svg svgz
 AddEncoding gzip svgz
 
-AddType text/css .css 
+AddType text/css
 </IfModule>
-
-# rewrite www.example.com → example.com
 
 <IfModule mod_rewrite.c>
 RewriteCond %{HTTPS} !=on
