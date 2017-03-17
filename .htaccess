@@ -19,6 +19,7 @@ AddType font/opentype otf
 AddType     image/svg+xml svg svgz
 AddEncoding gzip svgz
 
+AddType text/css .css 
 </IfModule>
 
 # rewrite www.example.com → example.com
